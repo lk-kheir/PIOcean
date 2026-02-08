@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIOcean</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+
+</head>
+<body>
+
+    <h2>Type a simple pattern to serach</h2>
+    <input id="pattern_input" type="text">
+    <input id="submit_btn" type="submit">
+
+    <p>
+    <span id="before_span"></span>
+    <span id="exact_span"></span>
+    <span id="after_span"></span>
+    </p>
+
+<script src="{{ url_for('static',filename='index.js') }}"> </script>
+</body>
+</html>

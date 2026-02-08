@@ -1,0 +1,21 @@
+body {
+    background-color: blueviolet;
+    color: white;
+}
+
+p {
+    width: 100%;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+#before_span,
+#exact_span,
+#after_span {
+    word-break: break-all;
+}
+
+#exact_span {
+    background-color: yellow;
+    color: black;
+}
